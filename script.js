@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function daysOfYear(year){
+function daysOfAYear(year){
 	if(year % 400 === 0 || (year % 4=== 0 && year % 100 !== 0)){
 		return 366
 	}
@@ -8,4 +8,4 @@ function daysOfYear(year){
 	}
 }
 
-console.log(daysOfYear(2022))
+console.log(daysOfAYear(2022))
